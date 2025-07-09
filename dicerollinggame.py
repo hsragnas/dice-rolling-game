@@ -79,9 +79,9 @@ def roll_dice():
             
         
             if num_of_dice == 2 and dice[0] == dice[1]:
-                print("🎉 Doubles!")
+                print("Doubles!")
             elif all(val == dice[0] for val in dice):
-                print("🔥 Yahtzee! All dice match!")
+                print("Perfect Roll! All dice match!")
                 
         except ValueError:
             print("Please enter a valid number.")
